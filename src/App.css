@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+:root{
+  --navy-background: #081730;
+  --dark: #061328;
+  --yellow: #f6bc0e;
+  --orange: #FCA61F;
+  --txt-color: #2C323F;
+  --select-box: #F4F3FF;
+  --blue: #52A3E9;
+  --dark-blue: #3F79E4;
+  --white: #fff;
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --smBoxShadow: -79px 61px 70px rgb(0, 0, 0, 0.08);
+  --black: #000;
+  --bg-color: #fff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+section{
+  background-color: var(--bg-color);
+}
+
+#root #dark{
+  background-color: #000;
+}
+
+:root #dark{
+  --bg-color: #000;
+  --dark-blue: #000;
+  --blue: #fff;
+}
+
+.btn-white{
+  width: 12rem;
+  height: 2.9rem;
+  border: none;
+  border-radius: .1rem;
+  background-color: var(--white);
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: var(--boxShadow);
+}
+
+.btn-blue{
+  width: 10rem;
+  height: 2.9rem;
+  border: none;
+  border-radius: .1rem;
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: var(--boxShadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-white:hover{
+  transition: all .3s;
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.btn-blue:hover{
+  transition: all .4s;
+  background-color: var(--white);
+  color: #000;
+}
+

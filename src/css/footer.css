@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    padding-bottom: 2rem;
+}
+
+.footer-inner{
+    margin-top: -3rem;
+}
+
+.f-links{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .footer-inner{
+        margin-top: 2rem;
+    }
+}

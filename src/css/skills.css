@@ -1,0 +1,76 @@
+.skills{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.s-left img{
+    width: 34rem;
+    height: 35rem;
+    border-radius: 10px;
+}
+
+label{
+    color: #555;
+    letter-spacing: 2px;
+    margin-top: 2rem;
+}
+
+.s-right{
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.s-right h3{
+    font-size: 3rem;
+    color: #555;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.s-right span{
+    color: gray;
+    margin-bottom: 0%;
+}
+.subscript {
+    font-size: 0.8rem; /* Smaller font size for the subscript */
+    vertical-align: sub; /* Positions the text as a subscript */
+    color: #888; /* Optional: lighter color for the subscript */
+  }
+
+  
+@media screen and (max-width:768px) {
+    .skills{
+        padding: 0rem;
+    }
+
+    .s-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s-left img{
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .s-right h3{
+        font-size: 2rem;
+        margin-top: 3rem;
+        
+    }
+
+    .s-right span{
+        font-size: .8rem;
+    }
+
+}
+
+
