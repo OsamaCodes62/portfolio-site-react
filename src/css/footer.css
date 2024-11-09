@@ -16,6 +16,16 @@
     width: 100%;
 }
 
+.footer .description {
+    font-size: 1rem;
+    max-width: 50rem; /* Set max-width for controlled wrapping */
+    margin: 0 auto; /* Center-align text */
+    text-align: justify; /* Justify for consistent line spacing */
+    line-height: 1.5; /* Improve readability */
+    white-space: pre-line; /* Enables respect for added line breaks */
+}
+
+
 @media screen and (max-width:768px) {
     .footer-inner{
         margin-top: 2rem;

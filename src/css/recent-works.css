@@ -1,3 +1,56 @@
+.portfolio-item {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 1.2rem; /* Add rounded corners */
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  border-radius: 1.2rem; /* Ensures the image has the same rounded corners */
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05); /* Optional zoom effect on hover */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 1.2rem; /* Rounded corners for the overlay */
+}
+
+.portfolio-item:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.overlay h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.overlay p {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+  
+
+
 .works{
     margin-top: 5rem;
     margin-bottom: 5rem;

@@ -19,13 +19,13 @@ const Footer = () => {
           <div className="row d-flex justify-content-center">
             <div className="col-md-6 text-center">
               <h1 className='mb-3'>ABOUT ME</h1>
-              <h6>
+              <p className='description'>
                 I’m Osama Ehsaan, a passionate Full Stack Developer and DevOps Engineer. I specialize in developing scalable web applications using cutting-edge technologies such as React, Node.js, and Cloud services (Kubernetes, Docker, AWS).
                 <br />
                 With a keen eye for detail and a strong drive for continuous improvement, I strive to create seamless user experiences and optimize backend architectures. I’m always eager to learn, grow, and take on new challenges in the tech space.
                 <br />
                 When I’m not coding, I enjoy exploring new design tools like Figma and experimenting with creative ways to improve my workflow.
-              </h6>
+              </p>
               <div className="socials mt-4 justify-content-center">
                 <span>
                   <a href="https://github.com/OsamaCodes62" target="_blank" rel="noopener noreferrer">

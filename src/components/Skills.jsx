@@ -1,5 +1,5 @@
 import React from 'react';
-import profile from '../images/men.jpg';
+import profile from '../images/profile.png';
 import '../css/skills.css';
 
 const Skills = () => {
