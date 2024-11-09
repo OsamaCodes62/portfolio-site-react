@@ -1,5 +1,5 @@
 {
-  "homepage": "https://codingalt.github.io/react-portfolio",
+  "homepage": "https://osamacodes62.github.io/portfolio-site-react/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +11,6 @@
     "bootstrap": "^5.1.3",
     "chart.js": "^3.7.1",
     "framer-motion": "^6.2.8",
-    "gh-pages": "^4.0.0",
     "react": "^17.0.2",
     "react-countup": "^6.2.0",
     "react-dom": "^17.0.2",
@@ -51,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
