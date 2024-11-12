@@ -47,7 +47,7 @@ const Hero = ({ recentWorksRef, aboutRef, servicesRef, contactRef }) => {
           </div>
           {/* Right Side  */}
           <div className="right">
-            <a href="https://your-file-hosting-link/your-cv.pdf" download>
+            <a href="https://pixeldrain.com/u/mNNsAzsL" download>
               <button className="btn download">Download CV</button>
             </a>
             <div className="toggle" onClick={toggleNavbar}>
